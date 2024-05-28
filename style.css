@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+main {
+    width: 300px;
+    height: 100px;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 10px;
+    
+    
+    
+    
+    
+}
+
+header  {
+    background-color: aliceblue;
+     point
+    border-radius: 10px;
+    
+    
+}
+
+header > h1 {
+    text-align: center;
+}
+
+section {
+    background: url(imagens/pexels-mantasink-1106476.jpg) center center;
+    height: 200px;
+    width: 100%;
+   
+}
+
+header > p {
+    padding: 5px;
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+ p {
+   left: 10px;
+ }
+
+ input, p {
+    margin-left: 10px;
+ }
+
+ img {
+    width: 30px;
+    height: 20px;
+    margin-left: 10px;
+
+ }
+
+ input#acessar {
+    margin-left: 50px;
+    width: 173px;
+ }
+
+ input#teste {
+    margin-left: 50px;
+    width: 173px;
+    background-color: aqua;
+ }

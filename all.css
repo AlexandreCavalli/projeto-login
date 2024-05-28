@@ -1,0 +1,43 @@
+
+@media screen and (min-width: 768px) {
+    
+main {
+  width: 50vw;
+  height: 10vh;
+  
+}
+
+input#teste {
+   display: inline;
+ }
+
+ html {
+    
+    margin-top: 100%;
+    
+    
+    
+ }
+
+ h1, p {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+ }
+
+}
+
+
+          
+
+
+
+   
+    
+    
+
+   
+    
+
+    
