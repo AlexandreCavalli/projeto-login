@@ -1,79 +1,64 @@
 @charset "UTF-8";
 
+/*
+Paleta de cores
+verde: #49a09d
+lilas: #5f2c82
+*/
+
 * {
-    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-body {
-    background-color: blueviolet;
+body, html {
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+
 }
 
 main {
-    width: 300px;
-    height: 100px;
-    background-color: aliceblue;
-    margin: auto;
-    margin-top: 60px;
-    border-radius: 10px;
-    
-    
-    
-    
-    
+    height: 100vh;
+    width: 100vw;
+    position: relative;
 }
 
-header  {
-    background-color: aliceblue;
-     point
-    border-radius: 10px;
-    
-    
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 3px black;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
-header > h1 {
-    text-align: center;
-}
-
-section {
-    background: url(imagens/pexels-mantasink-1106476.jpg) center center;
+section#login > div#imagem {
+    background-image: url(imagens/pexels-mantasink-1106476.jpg); 
     height: 200px;
-    width: 100%;
-   
+    background-size: cover; 
+    background-repeat: no-repeat;
+    display: block;
+
 }
 
-header > p {
-    padding: 5px;
+section#login > div#formulario {
+    padding: 10px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
 }
 
-
-
-h1 {
+div#formulario > h1 {
     text-align: center;
+    padding-bottom: 10px;
 }
-
- p {
-   left: 10px;
- }
-
- input, p {
-    margin-left: 10px;
- }
-
- img {
-    width: 30px;
-    height: 20px;
-    margin-left: 10px;
-
- }
-
- input#acessar {
-    margin-left: 50px;
-    width: 173px;
- }
-
- input#teste {
-    margin-left: 50px;
-    width: 173px;
-    background-color: aqua;
- }
